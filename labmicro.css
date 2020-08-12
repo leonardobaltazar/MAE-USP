@@ -1,46 +1,28 @@
 <style>
 
 .logo-name {
-    font-family: 'Open Sans', sans-serif;
-    color: #464243;
-    font-weight: bold;
-    line-height: normal;
-    font-size: initial;
-    font-weight: 700;
-    margin-bottom: -5px;
     padding-top: 20px !important;
     margin-left: -10px !important;
 }
 
 .logo-tit2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    color: #464243;
-    font-weight: normal;
-    line-height: 0.8;
-    font-size: initial;
     margin-left: -9px !important;
     padding-top: 10px !important;
 }
 
 .main-nav ul ul {
-    display: none;
-    position: absolute;
-    left: -20px;
     text-align: left !important;
     margin-left: 20px !important;
 }
 
 .main-nav ul ul li {
     width: 15rem !important;
-    background: #f6f6f6;
 }
 
 
 /** LINKS  **/
 a {
     color: #4C1A05 !important;
-    text-decoration: none;
 }
 
 /** LINKS (HOVER) **/
@@ -64,13 +46,6 @@ a:hover {
 .main-nav li a {
     color: #ffffff !important;
     letter-spacing: 1px !important;
-    display: block;
-    color: #fff;
-    font-size: 14px;
-    font-size: 0.9rem;
-    line-height: 0.8;
-    padding: 12px 0;
-    margin-right: 12px;
 }
 
 /* LETRAS DO MENU (HOVER) **/
@@ -104,9 +79,6 @@ a:hover {
 }
 
 /** THUMBNAIL DAS NOTÍCIAS SECUNDÁRIAS **/
-.cp-small-thumb img {
-    display: none;
-}
 
 /** TÍTULO DAS PÁGINAS **/
 .entry-title {
@@ -120,7 +92,6 @@ a:hover {
 
 /** LINHA DO TOPO DA PAGINA **/
 .header-wrap {
-    position: relative;
     margin: 0 0px !important;
     border-top: 5px solid #FFF !important;
 }
@@ -137,42 +108,21 @@ a:hover {
 
 /** TITULO DO SLIDER **/
 .slide-title {
-    font-size: 24px;
-    font-size: 1.5rem;
-    padding: 5px 10px;
     color: #4C1A05 !important;
-    background: #fff;
-    overflow: hidden;
-    opacity: 0.9;
 }
 
 .flex-direction-nav a {
-    text-decoration: none;
-    display: block;
-    width: 40px;
-    height: 40px;
-    margin: -20px 0 0;
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    overflow: hidden;
     opacity: 0 !important;
-    cursor: pointer;
     color: #4C1A05 !important;
     text-shadow: 1px 1px 0 rgba(255,255,255,0.2) !important;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease;
 }
 
 .flexslider:hover .flex-prev {
     opacity: 1 !important;
-    left: 10px;
 }
 
 .flexslider:hover .flex-next {
     opacity: 1 !important;
-    right: 10px;
 }
 
 /** ESPAÇAMENTO DOS WIDGETS **/
@@ -182,14 +132,11 @@ a:hover {
 
 /** BARRA do RODAPÉ **/
 footer {
-    color: #4C1A05;
-    margin: 40px 15px 0;
     border-top: 5px solid #4C1A05 !important;
 }
 
 /** WIDGET DE POSTS **/
 .cp-large {
-    width: 310px;
     margin-right: 30px !important;
     margin-bottom: 20px !important;
 }
@@ -200,13 +147,10 @@ footer {
 }
 
 .cp-list {
-    width: 310px;
     margin-top: 20px !important;
-    border-bottom: aqua;
 }
 
 .cp-list .mh-excerpt {
-    font-size: 13px;
     margin-bottom: -15px !important;
 }
 
@@ -227,7 +171,6 @@ footer {
 }
 
 .meta-author {
-    margin-right: 10px;
     font-size: 0 !important;
 }
 
