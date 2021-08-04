@@ -1,0 +1,13 @@
+.elementor-post__excerpt p:after{
+    content: " [...]";
+    color: #4E2A1E;
+    }
+    
+    .elementor-post__excerpt p {
+        text-align: justify;
+    }
+    
+    @media (max-width: 767px) {.elementor-post__thumbnail {
+        margin-left: 25%;
+    }
+    }

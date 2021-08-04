@@ -1,0 +1,25 @@
+.elementor-3316 .elementor-element.elementor-element-6d6f07a .elementor-nav-menu--main .elementor-item {
+    border-bottom: 3px solid #BF8F56;
+}
+
+.elementor-nav-menu .sub-arrow {
+    margin-right: -8px;
+}
+
+@media only screen and (min-width: 1000px) {.elementor-3316 .elementor-element.elementor-element-6d6f07a .elementor-nav-menu--dropdown a {
+    width: 200px;
+}
+
+.elementor-nav-menu--layout-horizontal .elementor-nav-menu a {
+    white-space: normal;
+}
+}
+
+@media only screen and (max-width: 600px) {.elementor-3316 .elementor-element.elementor-element-6d6f07a .elementor-nav-menu--dropdown a {
+    text-align: center;
+}
+
+.elementor-3316 .elementor-element.elementor-element-6d6f07a .elementor-menu-toggle {
+    margin-top: 10px;
+}
+}
